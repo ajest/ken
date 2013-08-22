@@ -93,21 +93,46 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+    background-color: #ccc;
+    padding: 10%;
+    min-width: 300px;
+}
 
+section{
+    max-width: 800px;
+    min-width: 300px;
+    background-color: floralwhite;
+    margin: 0 auto;
+}
 
+#actions{
+    max-width: 800px;
+    min-width: 300px;
+    background-color: #999;
+    margin: 0 auto;
+}
 
+#actions .buttons{
+    min-width: 300px;
+    text-align: center;
+    background-color: #222;
+}
 
+#actions .buttons input{
+    width: 100px;
+}
 
-
-
-
-
-
-
-
-
-
-
+#place{
+    min-width: 300px;
+    background-color: cadetblue;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+}
 
 /* ==========================================================================
    Helper classes
